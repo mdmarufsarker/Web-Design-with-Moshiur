@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY</title>
+</head>
+<body>
+
+    <h2>My name is Maruf</h2>
+    <h2 class="me">My name is Sakib</h2>
+    <h2 id="me">My name is Lisan</h2>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            //$(selector).action();
+            $('h2').show();
+            $('.me').hide();
+            $('#me').show();
+        });
+    </script>
+</body>
+</html>

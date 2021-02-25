@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+    
+    <title>Alert & Progress Bars | Bootstrap 4</title>
+</head>
+<body>
+      <h1 class="display-4 text-center my-4">Alerts & Progress Bars</h1>
+      <div class="container">
+        <!--########################START HERE#########################-->
+
+        <!-- ALERTS -->
+        <div class="alert alert-success">
+            <strong>Success</strong> Blog post added <a class="alert-link" href="#">Check it out</a>
+        </div>
+        <div class="alert alert-info">
+            <strong>Attention</strong> You have a new message <a class="alert-link" href="#">Check it out</a>
+        </div>
+        <div class="alert alert-warning">
+            <strong>Warning</strong> Please check the log files <a class="alert-link" href="#">Check it out</a>
+        </div>
+        <div class="alert alert-danger">
+            <h4>There's a Problem</h4>
+            <strong>Error</strong> Database update failed <a class="alert-link" href="#">Check it out</a>
+        </div>
+
+        <!-- DISMISSABLE -->
+ <!-- alert-dismissable use kora hoise × button ta jate kaj kore ajonno . r atar jonno button tag a ekta attribute use krte hobe data-dismiss="alert" name a .
+ fade and show 2 ta class use kora hoise animation add krte jodeo tmn buja jay na ata-->      
+     
+        <div class="alert alert-success alert-dismissable fade show">
+            <button type="button" class="close" data-dismiss="alert">
+                <span>&times;</span>
+            </button>
+            <strong>Success</strong> Blog post added <a class="alert-link" href="#">Check it out</a>
+        </div>
+
+        <br><br>
+
+        <!-- PROGRESS BARS -->
+        <div class="progress">
+            <div class="progress-bar" style="width: 50%;">HTML</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar" style="width: 25%;">25%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 50%">50%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar bg-info" style="width: 75%">75%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar bg-warning text-dark" style="width: 100%">100%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped" style="width: 75%"></div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated text-left pl-3" style="width: 85%">Bootstrap</div>
+        </div>
+
+    </div><!-- ./container -->
+    <div style="margin-top:500px;"></div>
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+</html>

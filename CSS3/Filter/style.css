@@ -1,0 +1,36 @@
+body{
+    margin:25% auto;
+    border:2px black;
+}
+img{
+    width:25%;
+    height:auto;
+    float:left;
+}
+.blur{
+    filter:blur(2px);
+}
+.brightness{
+    filter:brightness(150%);
+}
+.contrast{
+    filter:contrast(300%);
+}
+.grayscale{
+    filter:grayscale(100%);
+}
+.invert{
+    filter:invert(100%);
+}
+.opacity{
+    filter:opacity(50%);
+}
+.satuarate{
+    filter:saturate(20);
+}
+.sepia{
+    filter:sepia(150%);
+}
+.drop-shadow{
+    filter:drop-shadow(5px 5px 30px #bdc3c7);
+}

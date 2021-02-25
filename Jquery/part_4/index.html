@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <br><br>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+
+<br><br>
+    <p id="third-p">Lorem ipsum dolor sit amet.</p>
+    <button id="third">Click here</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        //for input
+        // $(document).ready(function(){
+        //     //$(selector).action();
+        //     $('#hide').click(function(){
+        //         $('p').hide('slow');
+        //     });
+        //     $('#show').click(function(){
+        //         $('p').show('fast');
+        //     });
+        //     // $('#show').click(function(){
+        //     //     $('p').show(5000);
+        //     // });// 5000=5s
+        // });
+
+
+        //third
+        $(document).ready(function(){
+            //$(selector).action();
+            $('#third').click(function(){
+                $('#third-p').toggle(2000);
+            });
+        });
+    </script>
+</body>
+</html>
+

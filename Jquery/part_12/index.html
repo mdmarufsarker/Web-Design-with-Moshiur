@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    <p id="lorem1">Lorem ipsum dolor sit amet.</p>
+    <p id="lorem2">Lorem ipsum.</p>
+    <p>Name
+        <input type="text" id="lorem3" value="Your name">
+    </p>
+
+    <button id="btn1">Set Text</button>
+    <button id="btn2">Set HTML</button>
+    <button id="btn3">Set Value</button>
+    -->
+
+    <p><a id="cf" href="https://www.codersfoundation.com">Coders Foundation</a></p>
+    <button id="btn">Change href</button>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        // $(document).ready(function(){
+        //     //$(selector).action();
+        //     //jqurey set
+        //     $('#btn1').click(function(){
+        //         $('#lorem1').text('Hi');// text use korle tag use kora jabe na
+        //     });
+        //     $('#btn2').click(function(){
+        //         $('#lorem2').html('<h2> Hello </h2>');// html use korle tag use kora jabe 
+        //     });
+        //     $('#btn3').click(function(){
+        //         $('#lorem3').val('Maruf Sarker');// html use korle tag use kora jabe 
+        //     });
+        // });
+
+
+        $(document).ready(function(){
+            //$(selector).action();
+            //jqurey set
+            $('#btn').click(function(){
+                $('#cf').attr('href', 'https://www.moshiur.me');
+            });
+        });
+    </script>
+</body>
+</html>

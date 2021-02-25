@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #maruf{
+            border:2px solid #222;
+            background:dodgerblue;
+            padding:20px;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sit!</p>
+    <p class="lm">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, itaque est maiores voluptates cum laboriosam ipsum a amet vero iusto ab. Quas rerum dolor odit, nesciunt facilis dolores eveniet quisquam!</p>
+
+    <div id="maruf">
+        <h2>Hello</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quo!</p>
+    </div>
+    <br><br>
+    <button>Click Here</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        // $(document).ready(function(){
+        //     //$(selector).action();
+        //     //jqurey remove
+
+        //     // $('button').click(function(){
+        //     //     $('#maruf').remove();
+        //     // });
+
+        //     $('button').click(function(){
+        //         $('#maruf').empty();
+        //     });
+        // });
+
+        $(document).ready(function(){
+            //$(selector).action();
+            //jqurey remove
+
+            $('button').click(function(){
+                $('.lm').empty();
+            });
+        });
+    </script>
+</body>
+</html>

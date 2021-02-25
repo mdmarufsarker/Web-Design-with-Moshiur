@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .maruf{
+            width:500px;
+            background:red;
+            font-size:20px;
+            padding:10px;
+            text-align: center;
+            margin:auto;
+        }
+        .lorem{
+            width:500px;
+            background:green;
+            padding:10px;
+            margin:auto;
+            display: none;
+            overflow: hidden;
+        }
+        button{
+            font-size:50px;
+        }
+    </style>
+</head>
+<body>
+    <button>Stop</button>
+    <div class="maruf">Click me</div>
+    <div class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic officia voluptas, impedit aliquam dignissimos reiciendis dolor officiis quos esse fugit! Et sit similique beatae neque at doloribus mollitia quod vitae deleniti nihil! Consequatur officia fugiat quae illum accusantium expedita omnis qui? Dolorum possimus a officia! Tenetur quas quidem ducimus nemo sunt harum neque at in porro iure repellendus, eos consequatur corrupti facilis omnis voluptatem quisquam ipsam nam impedit voluptatibus! Ducimus officiis dolor quo labore vero repudiandae ullam ab voluptatibus fuga?</div>
+
+
+    <scrip src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></scrip>
+    <script>
+        $(document).ready(function(){
+            //$(selector).action();
+        $('.maruf').click(function(){
+            $('.lorem').slideDown(2000);
+            });
+            $('button').click(function(){
+                $('.lorem').stop();
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button>Click Here</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            //$(selector).action();
+            // jQuery css()
+
+
+            // $('button').click(function(){
+            //     $('p').css('background-color','red');// jodi css er ekta code e use korar proyojon pore....
+            // });
+
+
+            $('button').click(function(){
+                $('p').css({
+                    'background-color':'dodgerblue',
+                    'color'           :'#fff',
+                    'font-size'       :'30px'
+                });// jodi css er onekgula code use korar proyojon pore....
+            });
+        });
+    </script>
+</body>
+</html>

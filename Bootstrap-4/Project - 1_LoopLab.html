@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project-1</title>
+<meta charsheet="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--
+<link rel="shortcut icon" type="image/x-icon" href="/storage/emulated/0/download/logo.png">
+-->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- CSS only --> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+
+<link rel="stylesheet" href="navbar-fixed.css">
+
+<style>
+*{
+font-family: 'Lato', sans-serif;				
+}
+body{
+background-color:#333;
+color:#fff;			
+}				
+.navbar{
+border-bottom:3px solid #008ed6;
+background-color:#292b2c;
+opacity:0.7;				
+}
+#home-section{
+background-image:url('https://images.pexels.com/photos/749386/pexels-photo-749386.jpeg?cs=srgb&dl=photo-of-string-lights-749386.jpg&fm=jpg');
+background-size:cover;
+background-attachment:fixed;
+background-position:center top;
+background-repeat:no-repeat;
+min-height:700px;
+}
+.dark-overlay{
+background-color:rgba(0,0,0,0.7);
+min-height:700px;			
+}				
+.fa{
+color:#008ed6;	
+background-color:#fff;			
+padding:4px;
+font-size:30px;		
+border-radius:5px;			
+}				
+.card-form{
+opacity:0.9;		
+}				
+.home-inner{
+padding-top:150px;	
+padding-bottom:50px;			
+}								
+	
+@media(max-width:576px){
+	#home-section:h1{
+		font-size:28px;			
+					}			
+				}
+.i2{
+background-color:#333;
+color:#fff;				
+}		
+</style>
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-dark navbar-expand-md">
+ <div class="container">
+  <a href="#home-section" class="navbar-brand">LoopLab</a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon">
+    
+    </span>
+  </button>
+  
+  
+   <div id="navbarNav" class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto" >
+     <li class="nav-item">
+      <a href="#home-section" class="nav-link">Home</a>
+     </li>
+      <li>
+      <li class="nav-item">
+      <a href="#explore-head-section" class="nav-link">Explore</a>
+     </li>
+      <li>
+      
+      <li class="nav-item">
+      <a href="#create-head-section" class="nav-link">Create</a>
+     </li>
+      <li>
+    <li class="nav-item">
+      <a href="#share-head-section" class="nav-link">Share</a>
+     </li>
+      
+    
+    </ul>
+   </div>
+ </div>
+
+</nav>
+
+
+<!--HEAD SECTION-->
+<section id="home-section">
+ <div class="dark-overlay">
+  <div class="home-inner">
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12 col-lg-8 d-none d-sm-block">
+      <h1 class="display-4">
+       Build <b>social profiles</b>
+       and gain revenue and 
+       <b>profits</b>
+      </h1>
+      <div class="d-flex flex-row">
+       <div class="p-4 mt-2 align-self-start">
+        <i class="fa fa-check"></i>
+       </div>
+       <div class="p-4 align-self-end">
+         <p class="lead">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?
+        </p>
+       </div>
+      </div>
+      <div class="d-flex flex-row">
+       <div class="p-4 mt-2 align-self-start">
+        <i class="fa fa-check"></i>
+       </div>
+       <div class="p-4 align-self-end">
+         <p class="lead">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?
+        </p>
+       </div>
+      </div>
+      <div class="d-flex flex-row">
+       <div class="p-4 mt-2 align-self-start">
+        <i class="fa fa-check"></i>
+       </div>
+       <div class="p-4 align-self-end">
+         <p class="lead">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?
+        </p>
+       </div>
+      </div>
+          
+     </div>
+     <div class="col-md-12 col-lg-4">
+      <div class="card card-form bg-primary text-center">
+       <div class="card-body">
+        <h3>Sign Up Today</h3>
+        <p>Please fill out this form to register</p>
+           <form>
+     <div class="form-group">
+      <input type="text" placeholder="Username" name="username" class="form-control">
+      
+     </div>
+      <div class="form-group">
+      <input type="email" placeholder="Email" name="email" class="form-control">
+      
+     </div>
+     
+      <div class="form-group">
+      <input type="password" placeholder="Password" name="pass1" class="form-control">
+      
+     </div>
+      <div class="form-group">
+      <input type="password" name="pass2" placeholder="Confirm Password" class="form-control">
+      
+     </div>
+     <input class="btn btn-outline-light btn-block" type="submit"  value="Submit">
+     
+    </form>
+              
+       </div>
+      </div>
+     </div>
+     
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<!--- EXPLORE HEAD SECTION-->
+<section id="explore-head-section" class="text-center py-5">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12">
+     <h2 class="display-4">Explore</h2>
+       <p class="lead">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?
+      </p>
+      <a class="btn btn-outline-light" href=""> Find Out More</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<!-- EXPLORE MAIN SECTION--->
+
+<section id="explore-main-section" class="bg-light py-5 text-dark">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12 col-lg-6">
+     <img src="https://images.pexels.com/photos/40815/youth-active-jump-happy-40815.jpeg?cs=srgb&dl=sunset-beach-people-sunrise-40815.jpg&fm=jpg  "class="img-fluid rounded ">
+   </div>
+   <div class="col-md-12 col-lg-6">
+     <h3>Explore Learn & Connect</h3>
+       <p class="lead">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?
+      </p>
+      <div class="d-flex flex-row">
+        <div class="p-4 align-self-start">
+         <i class="fa fa-check i2         "></i>
+        </div>
+        <div>
+            <p class="lead p-4 align-self-end">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit.itaque et vel commodi cupiditate debitis laborum?
+          </p>
+        </div>
+      </div>
+      <div class="d-flex flex-row">
+        <div class="p-4 mt-2 align-self-start">
+         <i class="fa fa-check i2"></i>
+        </div>
+        <div>
+            <p class="lead p-4 align-self-end">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit.itaque et vel commodi cupiditate debitis laborum?
+          </p>
+        </div>
+      </div>
+      
+      
+      
+      
+   </div>
+  </div>
+ </div>
+</section>
+
+<!--CREATE HEAD SECTION -->
+
+<section id="create-head-section" class="text-center bg-primary py-5">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12">
+     <h2 class="display-4">Create</h2>
+       <p class="lead">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?
+      </p>
+      <a class="btn btn-outline-light" href=""> Find Out More</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<!--CREATE MAIN SECTION-->
+<section id="create-main-section" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-6">
+        <h3>Create Your Passion</h3>
+         <p class="lead">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?
+         </p>
+          <div class="d-flex flex-row">
+        <div class="p-4 align-self-start">
+         <i class="fa fa-check "></i>
+        </div>
+        <div>
+            <p class="lead p-4 align-self-end">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit.itaque et vel commodi cupiditate debitis laborum?
+          </p>
+        </div>
+      </div>
+      <div class="d-flex flex-row">
+        <div class="p-4 mt-2 align-self-start">
+         <i class="fa fa-check "></i>
+        </div>
+        <div>
+            <p class="lead p-4 align-self-end">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit.itaque et vel commodi cupiditate debitis laborum?
+          </p>
+        </div>
+      </div>
+      
+               
+      </div>
+      <div class="col-md-12 col-lg-6">
+          <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?cs=srgb&dl=close-up-of-leaf-326055.jpg&fm=jpg" class="img-fluid rounded ">
+      </div>
+    </div>
+  </div>
+
+
+</section>
+<!---SHARE MAIN SECTION -->
+
+
+<section id="share-head-section" class="text-center bg-primary py-5">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12">
+     <h2 class="display-4">Share</h2>
+       <p class="lead">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?
+      </p>
+      <a class="btn btn-outline-light" href=""> Find Out More</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+
+<!-- SHARE MAIN SECTION--->
+
+<section id="share-main-section" class="bg-light py-5 text-dark">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12 col-lg-6">
+     <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?cs=srgb&dl=silver-imac-displaying-collage-photos-1779487.jpg&fm=jpg" class="img-fluid rounded ">
+   </div>
+   <div class="col-md-12 col-lg-6">
+     <h3>Share what you create</h3>
+       <p class="lead">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?
+      </p>
+      <div class="d-flex flex-row">
+        <div class="p-4 align-self-start">
+         <i class="fa fa-check i2         "></i>
+        </div>
+        <div>
+            <p class="lead p-4 align-self-end">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit.itaque et vel commodi cupiditate debitis laborum?
+          </p>
+        </div>
+      </div>
+      <div class="d-flex flex-row">
+        <div class="p-4 mt-2 align-self-start">
+         <i class="fa fa-check i2"></i>
+        </div>
+        <div>
+            <p class="lead p-4 align-self-end">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit.itaque et vel commodi cupiditate debitis laborum?
+          </p>
+        </div>
+      </div>
+      
+      
+      
+      
+   </div>
+  </div>
+ </div>
+</section>
+
+
+<!--FOOTER SECTION-->
+<footer id="footer-section" class="mt-5 text-center">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12">
+    <h2>LoopLab</h2>
+    <p>Copyright &copy; 2020 </p>
+    <span>Designed By <a class="pl-4 pb-4 text-warning" href="https://m.facebook.com/profile.php"> Maruf</a></span>
+     <br>  
+       <a class="btn btn-primary m-3" href="" data-toggle="modal" data-target="#contactModal">Contact Us</a>
+
+
+   </div>
+  </div>
+ </div>
+
+
+</footer>
+
+
+<!---CONTACT MODAL--->
+<div class="modal" id="contactModal">
+ <div class="#contactModal">
+  <div class="container">
+   <div class="modal-dialog">
+    <div class="modal-content bg-dark">
+     <div class="modal-header">
+      <h3>Contact Us</h3>
+      <button class="close text-warning" data-dismiss="modal">&times;</button>
+     </div>   
+     
+       <div class="modal-body">
+        <form action="https://formspree.io/sakibmaruf333@gmail.com" method="POST">
+          <div class="form-group">
+           <label for="name">Name</label>
+           <input type="text" id="name" name="Name" class="form-control">
+          </div>
+           <div class="form-group">
+           <label for="email">Email</label>
+           <input type="email" id="email" class="form-control" name="E-mail">
+          </div>
+           <div class="form-group">
+           <label for="message">Message</label>
+           <textarea class="form-control" name="Message" id="message" ></textarea>
+          </div>
+          <input type="submit" value="Send" class="btn btn-primary "
+      </form>
+       </div>  
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+
+
+<script>
+function myFunction(){
+	var x = Math.floor(Math.random()*256);
+  var y = Math.floor(Math.random()*256);
+  var z = Math.floor(Math.random()*256);
+
+var bgColor = "rgb("	+ x + "," + y + "," + z + ")";
+document.body.style.background = bgColor;
+}
+</script>
+
+
+<!-- JS, Popper.js, and jQuery --> <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="navbar-fixed.js"></script>
+
+
+
+
+</body>
+
+</html>

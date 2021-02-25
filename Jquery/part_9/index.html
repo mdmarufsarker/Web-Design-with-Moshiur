@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, odit.</p>
+    <button>Click me</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            //$(selector).action();
+            // using callback perameter (function ta callback hisebe kaj krbe)
+        $('button').click(function(){
+            $('p').hide('slow',function(){
+                alert('Maruf Sarkar');
+            });
+            });
+        });
+
+
+        $(document).ready(function(){
+            //$(selector).action();
+            //not using callback perameter (function ta callback hisebe kaj krbe)
+        $('button').click(function(){
+            $('p').hide('1000');
+            alert('Maruf');
+            });
+        });
+
+
+        // callback perameter use krle serial maintain kore kaj kore
+        // r callback perameter use na krle serial maintain kore kaj kore na
+    </script>
+</body>
+</html>

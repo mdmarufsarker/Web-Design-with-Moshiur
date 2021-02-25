@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .maruf{
+            font-size:50px;
+            color:dodgerblue;
+        }
+        .sakib{
+            letter-spacing:10px;
+        } */
+
+        .lisan{
+            width:300px;
+            height: 300px;
+            border:2px solid darkorchid;
+        }
+        .asif{
+            background-color: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet.</p>
+    <button>click here</button> -->
+
+    <div class="lisan asif"></div>
+    <br><br>
+    <button>CLick Here</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script >
+        // $(document).ready(function(){
+        //     //$(selector).action();
+        //     //jqurey remove
+
+        //     $('button').click(function(){
+        //         $('p').addClass('maruf sakib');
+        //     });
+        // });
+
+
+
+        $(document).ready(function(){
+            //$(selector).action();
+            //jqurey remove
+        //     $('button').click(function(){
+        //     $('div').removeClass('lisan asif');
+        //  });
+
+        $('button').click(function(){
+            $('div').toggleClass('asif');
+        });
+        });
+    </script>
+</body>
+</html>

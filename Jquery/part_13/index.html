@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> Lorem ipsum dolor sit amet. </p>
+    <button id="btn1">Click here</button>
+
+<br><br>
+    <img src="baby.jpg" alt="baby">
+    <br>
+    <button id="btn2">Insert Before</button>
+    <button id="btn3">Insert After</button>
+    <br><br>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            //$(selector).action();
+            //jqurey add
+            $('#btn1').click(function(){
+                $('p').append('<b>Sarker</b>');// pore jukto hobe
+            });
+            $('#btn1').click(function(){
+                $('p').prepend('<b>Maruf</b>');// pore jukto hobe
+            });
+        });
+
+        $(document).ready(function(){
+            //$(selector).action();
+            //jqurey add
+            $('#btn2').click(function(){
+                $('img').before('<b>Maruf</b>');// img er age text add hobe
+            });
+            $('#btn3').click(function(){
+                $('img').after('<b>Maruf</b>');// img er pore text add hobe
+            });
+        });
+    </script>
+</body>
+</html>
