@@ -1,1 +1,141 @@
-@media only screen and (max-width:1280px){.overlay .closebtn{position:absolute;top:5rem;left:62.5rem;font-size:3.75rem}}@media only screen and (max-width:1200px){header{height:70vh}.row{margin:0 .9375rem}.main-title{width:90%}}@media only screen and (max-width:1024px){.mobile-menu span{display:block}header{height:55vh}.main-nav{display:none}*{font-size:57.5%}.client-photo{width:100%;float:none;text-align:center}.client-review{width:100%;float:none;text-align:center}.contact-section form{width:100%;margin-left:0}}@media only screen and (max-width:980px){.span_1_of_4{width:49.2%}.span_1_of_4:nth-child(3){margin-left:0}*{font-size:62.5%}.btn-main:link,.btn-main:visited{background-color:#eb7d4b;border-color:#c86a40;font-size:1.25rem}@media only screen and (max-width:800px){.overlay .closebtn{position:absolute;top:80px;left:650px;font-size:3.75rem}}@media only screen and (max-width:768px){header{height:60vh}.little-description{width:100%;margin-left:0}h1{font-size:2.1875rem}h2{font-size:1.875rem}h3{font-size:1.25rem}.btn-main:link,.btn-main:visited{background-color:#eb7d4b;border-color:#c86a40;font-size:1.25rem}}@media only screen and (max-width:480px){.span_1_of_4{width:100%}h1{font-size:1.875rem}h2{font-size:1.5625rem}h3{font-size:1.25rem}.testimonial .col:nth-child(3),.testimonial .col:nth-child(4){margin-top:2.5rem}header{height:80vh}}@media only screen and (max-width:360px){.overlay .closebtn{position:absolute;top:5rem;left:300px;font-size:3.75rem}}@media only screen and (max-width:411px){.overlay .closebtn{position:absolute;top:5rem;left:340px;font-size:3.75rem}}@media only screen and (max-width:360px){.overlay .closebtn{position:absolute;top:5rem;left:300px;font-size:3.75rem}}}
+@media only screen and (max-width: 1280px) {
+	.overlay .closebtn {
+		position: absolute;
+		top: 5rem;
+		left: 62.5rem;
+		font-size: 3.75rem
+	}
+}
+@media only screen and (max-width: 1200px) {
+	header {
+		height: 70vh
+	}
+	.row {
+		margin: 0 .9375rem
+	}
+	.main-title {
+		width: 90%
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.mobile-menu span {
+		display: block
+	}
+	header {
+		height: 55vh
+	}
+	.main-nav {
+		display: none
+	}
+	* {
+		font-size: 57.5%
+	}
+	.client-photo {
+		width: 100%;
+		float: none;
+		text-align: center
+	}
+	.client-review {
+		width: 100%;
+		float: none;
+		text-align: center
+	}
+	.contact-section form {
+		width: 100%;
+		margin-left: 0
+	}
+}
+@media only screen and (max-width: 980px) {
+	.span_1_of_4 {
+		width: 49.2%
+	}
+	.span_1_of_4:nth-child(3) {
+		margin-left: 0
+	}
+	* {
+		font-size: 62.5%
+	}
+	.btn-main:link,
+	.btn-main:visited {
+		background-color: #eb7d4b;
+		border-color: #c86a40;
+		font-size: 1.25rem
+	}
+	@media only screen and (max-width: 800px) {
+		.overlay .closebtn {
+			position: absolute;
+			top: 80px;
+			left: 650px;
+			font-size: 3.75rem
+		}
+	}
+	@media only screen and (max-width: 768px) {
+		header {
+			height: 60vh
+		}
+		.little-description {
+			width: 100%;
+			margin-left: 0
+		}
+		h1 {
+			font-size: 2.1875rem
+		}
+		h2 {
+			font-size: 1.875rem
+		}
+		h3 {
+			font-size: 1.25rem
+		}
+		.btn-main:link,
+		.btn-main:visited {
+			background-color: #eb7d4b;
+			border-color: #c86a40;
+			font-size: 1.25rem
+		}
+	}
+	@media only screen and (max-width: 480px) {
+		.span_1_of_4 {
+			width: 100%
+		}
+		h1 {
+			font-size: 1.875rem
+		}
+		h2 {
+			font-size: 1.5625rem
+		}
+		h3 {
+			font-size: 1.25rem
+		}
+		.testimonial .col:nth-child(3),
+		.testimonial .col:nth-child(4) {
+			margin-top: 2.5rem
+		}
+		header {
+			height: 80vh
+		}
+	}
+	@media only screen and (max-width: 360px) {
+		.overlay .closebtn {
+			position: absolute;
+			top: 5rem;
+			left: 300px;
+			font-size: 3.75rem
+		}
+	}
+	@media only screen and (max-width: 411px) {
+		.overlay .closebtn {
+			position: absolute;
+			top: 5rem;
+			left: 340px;
+			font-size: 3.75rem
+		}
+	}
+	@media only screen and (max-width: 360px) {
+		.overlay .closebtn {
+			position: absolute;
+			top: 5rem;
+			left: 300px;
+			font-size: 3.75rem
+		}
+	}
+}
